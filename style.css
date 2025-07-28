@@ -10,6 +10,9 @@ body {
 .content {
   padding: 50px;
 }
+.h1,p{
+  color : black;
+}
 
 .spacer {
   height: 3000px; /* Enough space to scroll */
