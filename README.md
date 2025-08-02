@@ -1,4 +1,4 @@
-
+Hello im nitesh
 # 🎨 Scroll Color Change Webpage
 
 This simple web project dynamically changes the background color of the page based on how far the user has scrolled. It's a fun and interactive way to demonstrate scroll events and DOM manipulation using JavaScript.
