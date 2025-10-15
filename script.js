@@ -5,13 +5,18 @@ window.addEventListener('scroll', () => {
 
   let color;
 
-  if (scrollPercent < 0.25) {
+  if (scrollPercent < 0.15) {
     color = 'white';
-  } else if (scrollPercent < 0.5) {
+  } else if (scrollPercent < 0.40) {
     color = 'black';
-  } else if (scrollPercent < 0.75) {
+  } else if (scrollPercent < 0.65) {
     color = 'blue';
-  } else {
+  } 
+  else if (scrollPercent < 85)
+  {
+    color = 'green';
+  }
+  else {
     color = 'red';
   }
 
